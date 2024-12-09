@@ -17,6 +17,10 @@
   --focus: #FFC2E6;
   --title-color: #353430;
   background-image: url("/images/cover-image-light.png");
+  
+  .header_indicator {
+    display: none;
+  }
 }
 
 @media (prefers-color-scheme: light) {
@@ -29,8 +33,8 @@
     --focus: #FFC2E6;
     --title-color: #353430;
 }
-
-  .header_indicator {
-    display: none;
-  }
+.header_indicator {
+  display: none;
+}
+  
 }

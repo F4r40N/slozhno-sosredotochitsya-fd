@@ -17,7 +17,7 @@
   --focus: #DB00FF;
   --title-color: #000028;
   background-image: url("/images/cover-image-dark.png");
-  
+
   .header_indicator {
     display:  block;
   }
@@ -25,12 +25,17 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --accent-color: #ff0070;
+    --accent-color: #FF8DCB;
     --main-bg-color: #00183f;
-    --main-text-color: #f1b2ce;
-    --nav-color: #FF0070;
-    --focus: #DB00FF;
-    --title-color: #000028;
-    --bg-dark-color: #000028;
+    --main-text-color: #353430;
+    --text-shadow: #FF8DCB;
+    --nav-color: #353430;
+    --focus: #FFC2E6;
+    --title-color: #353430;
+    background-image: url("/images/cover-image-light.png");
   }
+  .header_indicator {
+    display: none;
+  }
+
 }
