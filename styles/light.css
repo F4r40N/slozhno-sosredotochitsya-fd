@@ -5,17 +5,15 @@
 */
 
 .page.theme_light {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
   --accent-color: #FF8DCB;
-  --main-bg-color: #00183f;
+  --main-bg-color: #fff1f7;
   --main-text-color: #353430;
   --text-shadow: #FF8DCB;
   --nav-color: #353430;
+  --nav-hover-color: rgba(50, 49, 45, 0.4);
   --focus: #FFC2E6;
   --title-color: #353430;
+  background-color: var(--main-bg-color);
   background-image: url("/images/cover-image-light.png");
   
   .header_indicator {
@@ -30,11 +28,18 @@
     --main-text-color: #353430;
     --text-shadow: #FF8DCB;
     --nav-color: #353430;
+    --nav-hover-color: rgba(50, 49, 45, 0.4);
     --focus: #FFC2E6;
     --title-color: #353430;
+    background-color: var(--main-bg-color);
+    background-image: url("/images/cover-image-light.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
 }
 .header_indicator {
   display: none;
 }
-  
 }
