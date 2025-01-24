@@ -6,8 +6,10 @@
 --main-gap: 10px;
 --main-font: 'IBM plex mono';
 --title-color: #000028;
+--focus: #DB00FF;
+--text-shadow: #ff0070;
 --accent-color: #ff0070;
---main-bg-color: #00183f;
+--main-bg-color: #000028;
 --main-text-color: #f1b2ce;
 --main-text-size: clamp(1.125rem, 1.125rem + 0vw, 1.125rem);
 --bg-dark-color: #000028;

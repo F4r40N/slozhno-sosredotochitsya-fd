@@ -1,5 +1,6 @@
 .page {
   margin: auto;
+  background-color: var(--main-bg-color);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -170,6 +171,7 @@
   .focus {
     margin-inline-start: -20px;
     font-size: clamp(1.125rem, -3.8947rem + 21.4176vw, 9.8125rem);
+    text-shadow: #FF0070;
   }
 }
 
@@ -307,6 +309,7 @@
   margin-top: calc(var(--main-gap) * 2);
   font-size: clamp(1.125rem, 1.125rem + 0vw, 1.125rem);
   color: var(--title-color);
+  font-weight: normal;
 }
 
 @media (width >= 768px) {

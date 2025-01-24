@@ -1,20 +1,16 @@
-/*
-  Специально для светлой темы при наличии класса.
-  Здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
-
 .page.theme_light {
   --accent-color: #FF8DCB;
-  --main-bg-color: #fff1f7;
   --main-text-color: #353430;
-  --text-shadow: #FF0070;
+  --text-shadow: #FF8DCB;
   --nav-color: #353430;
   --nav-hover-color: rgba(50, 49, 45, 0.4);
   --focus: #FFC2E6;
   --title-color: #353430;
-  background-color: var(--main-bg-color);
   background-image: url("/images/cover-image-light.png");
+
+  @media (width >= 768px) {
+    --text-shadow: #FF0070;
+  }
   
   .header_indicator {
     display: none;
@@ -24,20 +20,17 @@
 @media (prefers-color-scheme: light) {
   :root {
     --accent-color: #FF8DCB;
-    --main-bg-color: #00183f;
     --main-text-color: #353430;
-    --text-shadow: #FF0070;
+    --focus: #FFC2E6;
     --nav-color: #353430;
     --nav-hover-color: rgba(50, 49, 45, 0.4);
-    --focus: #FFC2E6;
-    --title-color: #353430;
-    background-color: var(--main-bg-color);
+    --text-shadow: #FF8DCB;
+    --main-bg-color: #FFF1F7;
     background-image: url("/images/cover-image-light.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    position: relative;
+
+    @media (width >= 768px) {
+      --text-shadow: #FF0070;
+    }
 }
 .header_indicator {
   display: none;
