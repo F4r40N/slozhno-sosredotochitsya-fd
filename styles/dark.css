@@ -6,10 +6,8 @@
   --nav-color: #FF0070;
   --nav-hover-color: rgb(255 0 112 / 0.4);
   --focus: #DB00FF;
-  --title-color: #000028;
-  background-color: var(--main-bg-color);
+  --title-color: #000028;  
   background-image: url("/images/cover-image-dark.png");
-
   .header_indicator {
     display:  block;
   }
