@@ -1,13 +1,16 @@
 .page.theme_dark {
-  --accent-color: #ff0070;
-  --main-bg-color: #000028;
-  --main-text-color: #f1b2ce;
+  --title-color: #000028;
+  --focus: #DB00FF;
   --text-shadow: #ff0070;
+  --accent-color: #ff0070;
   --nav-color: #FF0070;
   --nav-hover-color: rgb(255 0 112 / 0.4);
-  --focus: #DB00FF;
-  --title-color: #000028;  
-  background-image: url("/images/cover-image-dark.png");
+  --main-bg-color: #000028;
+  --main-text-color: #f1b2ce;
+  --bg-dark-color: #000028;
+  --bg-light-color: #fff1f7;
+  --bg-image: url("/images/cover-image-dark.png");
+
   .header_indicator {
     display:  block;
   }
@@ -15,21 +18,17 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --accent-color: #ff0070;
-    --main-bg-color: #000028;
-    --main-text-color: #f1b2ce;
+    --title-color: #000028;
+    --focus: #DB00FF;
     --text-shadow: #ff0070;
+    --accent-color: #ff0070;
     --nav-color: #FF0070;
     --nav-hover-color: rgb(255 0 112 / 0.4);
-    --focus: #DB00FF;
-    --title-color: #000028;
-    background-color: var(--main-bg-color);
-    background-image: url("/images/cover-image-dark.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    position: relative;
+    --main-bg-color: #000028;
+    --main-text-color: #f1b2ce;
+    --bg-dark-color: #000028;
+    --bg-light-color: #fff1f7;
+    --bg-image: url("/images/cover-image-dark.png");
   }
   .header_indicator {
     display: block;
