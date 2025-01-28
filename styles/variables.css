@@ -16,5 +16,5 @@
 --main-text-color: #f1b2ce;
 --bg-dark-color: #000028;
 --bg-light-color: #fff1f7;
---bg-image: url("/images/cover-image-dark.png");
+--bg-image: url("../images/cover-image-dark.png");
 }
